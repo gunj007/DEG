@@ -40,9 +40,9 @@ ax.set_yticklabels(ax.get_yticklabels(), rotation = 0, fontsize = 7)
 plt.show()
 
 #splitting data into treated untreated array 
-vec1= cpm[[1,3,5,7,9,11]]
+vec1= logv[[1,3,5,7,9,11]]
 print("sssssss:",vec1)
-vec2=cpm[[2,4,6,8,10]]
+vec2=logv[[2,4,6,8,10]]
 print("vvvvvv:",vec2)
 
 meanUntreated=np.mean(vec1,axis=0)
