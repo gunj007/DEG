@@ -75,10 +75,9 @@ r['pvalue']=r['pvalue'].fillna(1)
 print("df:",r)
 r.to_csv("deg.csv")
 #volcanoplot
-'''
 from bioinfokit import analys, visuz
 visuz.GeneExpression.volcano(r, lfc='log2FC', pv='pvalue',plotlegend=True, legendpos='upper right', 
-    legendanchor=(1.46,1),show=True)'''
+    legendanchor=(1.46,1),show=True)
 
 
 
