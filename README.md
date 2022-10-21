@@ -14,6 +14,9 @@ taking its transpons and labelling the columns and append its gene id which we r
 
 then plot volcano viz. showing the genes overaly expressed
 
+# Heatmap
+    shows diffrentially expressed genes in yellow and negatively expressed genes in voilet-purple
+
 
 
 
