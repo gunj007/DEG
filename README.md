@@ -8,12 +8,17 @@ expression levels between experimental groups.
              	RNF4-RGMb axis is required for osteogenic differentiation and cancer cell survival
              To determine a potential transcriptional role for RNF4 in OD, and to identify RNF4-regulated, secreted factors we performed RNA-seq analysis.
              We compared the changes in gene signature of scrambled Scr-control hBMSCs to that of hBMSCs where RNF4 was knocked-down using shRNF4 upon OD
+             
+ Here, dataset contains ![image](https://user-images.githubusercontent.com/110597928/198849778-7388e98d-d3ea-4593-95ec-68f6d39a533c.png)
+
+
 We read the readcounts file remove unwanted columns 
 then convert the data in to the matrix inorder 
 to produce cpm, log values and zscore, plot heatmap
 
 then we split into test and control and find its mean
-followed by p value and log2FC convert into dataframe
+followed by p value and log2FC convert into dataframe ![image](https://user-images.githubusercontent.com/110597928/198849881-683c6ff1-6ef9-464c-9caa-f50f6004da01.png)
+
 taking its transpons and labelling the columns and append its gene id which we removed
 
 then plot volcano viz. showing the genes overaly expressed
@@ -21,7 +26,7 @@ then plot volcano viz. showing the genes overaly expressed
 # Heatmap
 ![image](https://user-images.githubusercontent.com/110597928/198849497-b05692c9-2b7d-45af-a80a-d143519a4a6a.png)
 
-    shows diffrentially expressed genes in yellow and negatively expressed genes in voilet-purple
+    shows genes positively expressed in 'scrambled_untreated_2'(yellow) and negatively expressed more genes in siRNAaRNF4_7d_of_osteogenesis_1 (voilet-purple) 
 
 
 
