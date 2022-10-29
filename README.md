@@ -21,13 +21,14 @@ followed by p value and log2FC convert into dataframe ![image](https://user-imag
 
 taking its transpons and labelling the columns and append its gene id which we removed
 
-then plot volcano viz. showing the genes overaly expressed
-
 # Heatmap
 ![image](https://user-images.githubusercontent.com/110597928/198849497-b05692c9-2b7d-45af-a80a-d143519a4a6a.png)
 
     shows genes positively expressed in 'scrambled_untreated_2'(yellow) and negatively expressed more genes in siRNAaRNF4_7d_of_osteogenesis_1 (voilet-purple) 
 
+then plot volcano viz. showing the genes overaly expressed:
+Highly expressed upregulated genes (green) and Highly expressed downregulated genes (red)
+![image](https://user-images.githubusercontent.com/110597928/198850226-dcfc407b-cb13-4c8e-927d-70f749c75a32.png)
 
 
 
