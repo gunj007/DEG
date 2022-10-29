@@ -4,6 +4,9 @@ normalized number of readings and performing statistical
 analysis to reveal quantitative changes in 
 expression levels between experimental groups.
 
+             Dataset :  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205432
+             To determine a potential transcriptional role for RNF4 in OD, and to identify RNF4-regulated, secreted factors we performed RNA-seq analysis.
+             We compared the changes in gene signature of scrambled Scr-control hBMSCs to that of hBMSCs where RNF4 was knocked-down using shRNF4 upon OD
 We read the readcounts file remove unwanted columns 
 then convert the data in to the matrix inorder 
 to produce cpm, log values and zscore, plot heatmap
